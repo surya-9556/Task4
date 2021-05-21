@@ -7337,11 +7337,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\WeatherReportSolution\\WeatherReportProject\\WeatherReportProject.csproj",
+      "projectUniqueName": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Git\\Day10\\Task4\\WeatherReportSolution\\WeatherReportProject\\WeatherReportProject.csproj",
       "projectName": "WeatherReportProject",
-      "projectPath": "C:\\Users\\Lenovo\\source\\repos\\WeatherReportSolution\\WeatherReportProject\\WeatherReportProject.csproj",
+      "projectPath": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Git\\Day10\\Task4\\WeatherReportSolution\\WeatherReportProject\\WeatherReportProject.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lenovo\\source\\repos\\WeatherReportSolution\\WeatherReportProject\\obj\\",
+      "outputPath": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Git\\Day10\\Task4\\WeatherReportSolution\\WeatherReportProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",

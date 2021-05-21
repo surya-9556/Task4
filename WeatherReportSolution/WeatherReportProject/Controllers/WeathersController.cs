@@ -109,17 +109,16 @@ namespace WeatherReportProject.Controllers
 
         [HttpGet]
         [Route("city")]
-        public async Task<ActionResult<Weather>> GetWeather(string city)
+        public async Task<ActionResult<Weather>> GetWeather(int id, string city)
         {
-            city = _context.Weathers.Where(i => i.City == city).ToList();
-            var weather = await _context.Weathers.FindAsync(city);
+            var weather = await _context.Weathers.FindAsync(id);
 
-            if (weather == null)
+            if (weather.City == city && weather != null)
             {
-                return NotFound();
+                return weather;
             }
 
-            return weather;
+            return NotFound();
         }
     }
 }
